@@ -33,3 +33,54 @@ nav a {
 nav a:hover {
     color: #00bfa6;
 }
+.hero {
+    background: url("https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1600") 
+        center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    background: rgba(0,0,0,0.55);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.search-box {
+    width: 70%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.featured {
+    padding: 50px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.card {
+    background: #f4f4f4;
+    width: 180px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+}
