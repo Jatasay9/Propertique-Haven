@@ -92,13 +92,4 @@ body{
  padding:10px;
  margin-top:40px;
 }
-@media(max-width:600px){
- .formBox{
-  width:90%;
-  min-height:450px;
-  padding:25px;
- }
- .headCon h1{
-  font-size:30px;
- }
-}
+
