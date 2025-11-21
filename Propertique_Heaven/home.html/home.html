@@ -3,39 +3,111 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Propertique Heaven - Home</title>
+    <title>Propertique Heaven</title>
     <link rel="stylesheet" href="home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="navbar">
+    <div class="menu">
       <div class="logo">Propertique <span>Heaven</span></div>
       <nav>
         <a href="home.html">Home</a>
-        <a href="#">Buy</a>
+        <a href="buy.html">Buy</a>
         <a href="#">Rent</a>
-        <a href="#">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
-    </header>
-    <section class="hero">
-      <div class="hero-content">
-        <h1>Find your perfect home</h1>
-        <p>Search from thousands of verified listings across India</p>
-        <input
-          type="text"
-          class="search-box"
-          placeholder="Search by city, area or property type"
-        />
-      </div>
-    </section>
-    <section class="featured">
-      <h2>Featured Properties</h2>
+    </div>
 
-      <div class="cards">
-        <div class="card">Property 1</div>
-        <div class="card">Property 2</div>
-        <div class="card">Property 3</div>
+    <div class="mainimg">
+      <video autoplay muted loop class="bg-video">
+        <source src="prop.mp4" type="video/mp4" />
+      </video>
+      <div class="big">
+        <h1>Your Dream Home Awaits</h1>
+        <p>Search trusted properties across top cities in India</p>
+        <br>
+        <div class="blk">
+          <input type="text" placeholder="Search by city, location or area" />
+          <button>Search</button>
+        </div>
       </div>
-    </section>
-    
+    </div>
+
+    <div class="part1">
+      <h2>Featured Properties</h2>
+      <p>Best homes handpicked for you</p>
+      <div class="cards">
+        <div class="card1">
+          <img
+            src="mumbai.png"
+          />
+          <h3>2 BHK Apartment</h3>
+          <p>Mumbai • ₹85 Lakh</p>
+        </div>
+        <div class="card1">
+          <img
+            src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=600"
+          />
+          <h3>Luxury Villa</h3>
+          <p>Bangalore • ₹2.4 Cr</p>
+        </div>
+        <div class="card1">
+          <img
+            src="pune.png"
+          />
+          <h3>Family Home</h3>
+          <p>Pune • ₹65 Lakh</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="list2">
+      <h2>Explore Cities</h2>
+      <p>Find properties in top locations</p>
+      <div class="cx">
+        <div class="small">
+          <span>🏙️</span>
+          <h3>Mumbai</h3>
+          <p>Sea-view homes & luxury flats</p>
+        </div>
+        <div class="small">
+          <span>🏢</span>
+          <h3>Delhi</h3>
+          <p>Modern apartments & posh areas</p>
+        </div>
+        <div class="small">
+          <span>🌳</span>
+          <h3>Bangalore</h3>
+          <p>Tech city gated villas</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="why">
+      <h2>Why Choose Us?</h2>
+      <p>Your trusted property partner</p>
+      <div class="w-box">
+        <div class="small2">
+          <span>✔️</span>
+          <h3>Verified Listings</h3>
+          <p>Every property is checked</p>
+        </div>
+        <div class="small2">
+          <span>💰</span>
+          <h3>Fair Pricing</h3>
+          <p>No hidden charges</p>
+        </div>
+        <div class="small2">
+          <span>🔍</span>
+          <h3>Easy Search</h3>
+          <p>Find your home quickly</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">Designed by Jatasay</div>
   </body>
 </html>
