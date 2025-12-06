@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
+    
   </head>
   <body>
     <div class="menu">
@@ -29,10 +30,12 @@
         <h1>Your Dream Home Awaits</h1>
         <p>Search trusted properties across top cities in India</p>
         <br>
+        <!-- js to be applied here -->
         <div class="blk">
-          <input type="text" placeholder="Search by city, location or area" />
-          <button>Search</button>
+          <input id="searchInput" type="text" placeholder="Search by city, location or area" />
+          <button id="searchBtn">Search</button>
         </div>
+        <p id="searchResult"></p>
       </div>
     </div>
 
@@ -109,5 +112,6 @@
     </div>
 
     <div class="foot">Designed by Jatasay</div>
+    <script src="script.js"></script>
   </body>
 </html>
